@@ -78,13 +78,24 @@ fname=input("What is your fist name?")
 lname=input("What is your last name?")
 aname=input("What is your street address?")
 cname=input("What is your city and zip code?")
-print(fname + lname + aname + cname)
+print("")
+print(fname)
+print(lname)
+print(aname)
+print(cname)
+print("")
 
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
 
+aword=input("What is your first word?")
+bword=input("What is your second word?")
+cword=input("What is your third word?")
+print("")
+print(aword + "-" + bword + "-" + cword)
+print("")
 
 ## Problem 5 ##
 #Please write a script that: 
@@ -97,3 +108,8 @@ print(fname + lname + aname + cname)
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+
+aword=input("What is your character\'s name?")
+bword=input("What is an important year for your character?")
+print(aword + " has a special day on " + bword + ".It is an important day for " + aword + ", it is the day " + aword + " graduates from the air force. This is the day when " + aword + " can fly and protect the country that " + aword + " respects and will sacrifice if need be. " + aword + " prepares as " + aword + " flies one of the most difficult and experianced plane, the F-15.")
+print("")
